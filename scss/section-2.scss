@@ -1,0 +1,48 @@
+.showcase {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 1400px;
+}
+
+
+div.showcase img {
+float: right;
+  width: 700px;;
+  height: 500px;
+  object-fit: cover;
+  object-position: 5px 10%;
+}
+
+div.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  height: 400px;
+  padding: 5px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+div.txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+}
+
+
+div.txt p {
+  line-height: 25px;
+  margin-top: 10px;
+  color: #808080ab;
+
+}
+div.showcase .updatedimg{
+  float: left;
+  width: 700px;
+  height: 500px;
+ transform: translateX(5px);
+}

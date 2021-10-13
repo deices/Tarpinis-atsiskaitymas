@@ -1,0 +1,46 @@
+div.rights {
+  background: #f8f9fa;
+  width: 1400px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rights nav {
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rights ul {
+  display: flex;
+  flex-direction: row
+}
+
+.rights ul a{
+  font-weight: 500;
+    color: #007bff;
+text-decoration: none;
+}
+
+.rights ul li {
+  list-style: none;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.rights ul li:before {
+       content:"·";
+       color: grey;
+       font-size: 35px;
+       vertical-align:middle;
+       line-height:15px;
+   }
+
+.rights i {
+  color: #007bff;
+  font-size: 20px;
+  margin: 20px;
+}

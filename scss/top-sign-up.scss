@@ -1,0 +1,51 @@
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+flex-direction: column;
+  position: absolute;
+  text-align: center;
+  font-size: 13px;
+  transform: translate(500px, -250px);
+  color: white;
+}
+
+div.up {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  line-height: 20px;
+
+}
+
+div.up input {
+  border: none;
+width: 260px;
+margin-right: 5px;
+border-radius: 5px;
+line-height: 30px;
+font-size: 15px;
+}
+
+div.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85px;
+  height: 30px;
+  background: #007bff;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.top-img {
+  margin-top: 36px;
+  position: relative;
+  filter: brightness(70%);
+   display: flex;
+  justify-content:center;
+  align-items: center;
+  width: 1400px;
+  height: 350px;
+   object-fit: cover;
+}

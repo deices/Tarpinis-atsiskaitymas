@@ -1,0 +1,34 @@
+div.icons {
+  width: 1400px;
+  height: 350px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: row;
+ background:  #f8f9fa;
+
+}
+
+div.icon {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin: 20px;
+ line-height: 25px;
+}
+
+
+div.icon i {
+ color: #007bff;
+ font-size: 60px;
+ margin-bottom: 15px;
+
+}
+
+div.icon p {
+ font-size: 15px;
+ text-align: center;
+ color: #808080ab;
+ margin-top: 10px;
+}

@@ -1,0 +1,59 @@
+
+div.talking {
+  width: 1400px;
+  height: 500px;
+ background:  #f8f9fa;
+
+}
+
+.text-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+
+}
+
+img.selfy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  box-shadow: 2px 2px 5px grey;
+}
+
+.people {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.person {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 350px;
+  height: 50px;
+text-align: center;
+margin-top: 120px;
+padding: 5px;
+}
+
+div.talking .text-name {
+  margin-top: 15px;
+  line-height: 25px;
+  font-size: 15px;
+}
+
+div.talking .text-name h2 {
+  font-size: 20px;
+}
+
+div.talking .text-name p {
+  color: #808080ab;
+margin-top: 10px;
+}
